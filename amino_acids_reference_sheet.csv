@@ -1,0 +1,21 @@
+Name,Code,MolWt,Formula,ResWt,pKa_COOH,pKb_NH3,pKx,pI,Hydro_pH2,Hydro_pH7,Category
+Alanine,A,89.1,C3H7NO2,71.08,2.34,9.69,–,6,47,41,Hydrophobic
+Arginine,R,174.2,C6H14N4O2,156.19,2.17,9.04,12.48,10.76,–,-14,Basic
+Asparagine,N,132.12,C4H8N2O3,114.11,2.02,8.8,–,5.41,–,-28,Polar
+Aspartic acid,D,133.11,C4H7NO4,115.09,1.88,9.6,3.65,2.77,-18,-55,Acidic
+Cysteine,C,121.16,C3H7NO2S,103.15,1.96,10.28,8.18,5.07,52,49,Polar
+Glutamic acid,E,147.13,C5H9NO4,129.12,2.19,9.67,4.25,3.22,8,-31,Acidic
+Glutamine,Q,146.15,C5H10N2O3,128.13,2.17,9.13,–,5.65,-18,-10,Polar
+Glycine,G,75.07,C2H5NO2,57.05,2.34,9.6,–,5.97,0,0,Unique
+Histidine,H,155.16,C6H9N3O2,137.14,1.82,9.17,6,7.59,-42,8,Basic
+Isoleucine,I,131.18,C6H13NO2,113.16,2.36,9.6,–,6.02,100,99,Hydrophobic
+Leucine,L,131.18,C6H13NO2,113.16,2.36,9.6,–,5.98,100,97,Hydrophobic
+Lysine,K,146.19,C6H14N2O2,128.18,2.18,8.95,10.53,9.74,-37,-23,Basic
+Methionine,M,149.21,C5H11NO2S,131.2,2.28,9.21,–,5.74,74,74,Hydrophobic
+Phenylalanine,F,165.19,C9H11NO2,147.18,1.83,9.13,–,5.48,92,100,Hydrophobic
+Proline,P,115.13,C5H9NO2,97.12,1.99,10.6,–,6.3,-46,-46,Unique
+Serine,S,105.09,C3H7NO3,87.08,2.21,9.15,–,5.68,-7,-5,Polar
+Threonine,T,119.12,C4H9NO3,101.11,2.09,9.1,–,5.6,13,13,Polar
+Tryptophan,W,204.23,C11H12N2O2,186.22,2.83,9.39,–,5.89,84,97,Hydrophobic
+Tyrosine,Y,181.19,C9H11NO3,163.18,2.2,9.11,10.07,5.66,49,63,Hydrophobic
+Valine,V,117.15,C5H11NO2,99.13,2.32,9.62,–,5.96,79,76,Hydrophobic
