@@ -7,12 +7,14 @@ library(dplyr)
 library(ggplot2)
 
 #Load Amino Acid Reference Sheet csv
-aa_reference <- read.csv("amino_acids_reference_sheet.csv")
+#Added header = FALSE so R automatically renames the columns V1, V2, V3...
+
+aa_reference <- read.csv("amino_acids_reference_sheet.csv", header = FALSE)
 
 # 1. DATA CLEANING & REORDERING
 clean_missense_data <- UMD_variants_EU[, c("WT AA_1", "Mutant AA_1", "Codon")]
 
-clean_reference_data <- amino_acids_reference_sheet %>% 
+clean_reference_data <- aa_reference %>% 
   select(V1, V2, V3, V9, V10, V11, V12)
 
 step_one_data <- left_join(
@@ -78,7 +80,7 @@ reordered_Final_Tagged_Data <- Tagged_Data %>% relocate(Mutation_Route, .before 
 
 # 4. PIPELINE FILTERS
 
-#See all data without missing values (from frameshifts)
+#See all data without missing values (as a result of frameshifts)
 
 Filter_1_data <- Tagged_Data %>%
   filter(!is.na(Mol_Wt_Pct_change)) %>%
@@ -88,7 +90,7 @@ Filter_1_data <- Tagged_Data %>%
 Filter_2_data <- Tagged_Data %>%
   filter(Clinical_status == "PATHOGENIC")
 
--
+
 Removed_pct_columns_from_data <- Tagged_Data %>%
   select(-c(Mol_Wt_Pct_change, Hydro_ph7_Pct_change))
 
