@@ -25,7 +25,7 @@ I used the `case_when()` function to impose conditional rules to classify the da
 
 These were the rules to classify them accordingly:
 * `is.na(Mol_Wt_Pct_change) | is.na(Hydro_ph7_Pct_change)` = **"CHECK FOR FRAMESHIFT"**
-* `WT_AA Charge != Mut_AA Charge` = **PATHOGENIC**
+* `WT_AA Charge ! = Mut_AA Charge` = **PATHOGENIC** # ! = not
 * `Hydrophobicity % Change < -30` = **PATHOGENIC**
 * `Hydrophobicity % Change > 30` = **PATHOGENIC**
 * `Molecular Weight % Change < -30` = **PATHOGENIC**
