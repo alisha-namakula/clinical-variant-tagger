@@ -55,9 +55,15 @@ I used `ggplot2` to generate 3 types of graphs: bar charts, histograms, and a sc
 
 ## 💡 Main Takeaways from the Graphs
 * **Bar Chart:** Shows how many patient mutations ended up tagged as Pathogenic vs. Benign vs. Frameshift.
-* **Hydrophobicity Histogram:** Shows that most mutations have near 0% change in oiliness, but the extreme ones spread out.
-* **Molecular Weight Histogram:** Shows that most amino acid swaps were also close to the same size or heaviness (0% change).
-* **Scatter Plot:** Shows how molecular weight and hydrophobicity changes look together for each mutation.
+*  Many missense mutations were tagged benign. 
+* **Hydrophobicity Histogram:** Shows that most mutations have a near 0% change in oiliness. The  extreme cases were spread out.
+* **Molecular Weight Histogram:** Shows that most amino acid swaps made were close to their original size or heaviness aswell, having a near 0% change.
+* **Scatter Plot:** Shows how molecular weight and hydrophobicity changes look together for each individual mutation.
+*  They further visualise how these two factors changes huddle close to 0 in most missense mutations, although will still be tagged as pathogenic.
+
+## 💠 Summary of Clinical Data Findings
+Most of the swaps in the missense mutations were benign. 
+*Pathogenicity in these TP53 mutations may not be most attributed to changes in Hydrophobicity or molecular weight, as the majority of amino acid swaps made kept these two factors quite similar They may be still tagged as pathogenic because charge is the largest controller of pathogenicity instead.
 
 ---
 
