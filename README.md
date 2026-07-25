@@ -30,7 +30,7 @@ These were the rules to classify them accordingly:
 * `Hydrophobicity % Change > 30` = **PATHOGENIC**
 * `Molecular Weight % Change < -30` = **PATHOGENIC**
 * `Molecular Weight % Change > 30` = **PATHOGENIC**
-* `Remaining` = **BENIGN**
+* `"Remaining"` = **BENIGN**
 
 ---
 
