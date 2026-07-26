@@ -20,7 +20,7 @@ I took the complete clean dataset and mutated it to calculate the percentage cha
 
 The "charge" `WT_AA` and `Mutant_AA` columns were not transformed into percentage changes. Charge swaps of any degree are almost always detrimental, so I did not create a rule to account for a margin of error.
 
-### 4. Logic Tagger
+### 4. Clinical Tagger Rules
 I used the `case_when()` function to impose conditional rules to classify the data into 4 distinct categories to aid in determining clinical significance.
 
 These were the rules to classify them accordingly:
@@ -34,7 +34,7 @@ These were the rules to classify them accordingly:
 
 ---
 
-## 📊 Data Visualization
+## 📊 Data Visualisation
 
 I used `ggplot2` to generate 3 types of graphs: bar charts, histograms, and a scatter plot.
 
