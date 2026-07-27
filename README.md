@@ -81,7 +81,7 @@ I used `ggplot2` to generate 3 types of graphs: bar charts, histograms, and a sc
 
 Most of the swaps in the missense mutations were benign.
 
-Pathogenicity in these *TP53* mutations may not be mostly attributed to changes in hydrophobicity or molecular weight, as the majority of amino acid swaps kept these two factors quite similar — meaning they may not cause severe damage to the overall folding of the *TP53* protein. Instead, these variants may mainly be tagged as pathogenic because charge acts as the primary driver of disease in *TP53* missense mutations.
+Pathogenicity in these *TP53* mutations may not be mostly attributed to changes in hydrophobicity or molecular weight, as the majority of amino acid swaps kept these two factors quite similar - This means they may not cause severe damage to the overall folding of the *TP53* protein. Instead, these variants may mainly be tagged as pathogenic because charge acts as the primary driver of disease in *TP53* missense mutations.
 
 ---
 
