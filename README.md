@@ -1,7 +1,7 @@
 # clinical-variant-tagger
 An R pipeline to tag pathogenic TP53 missense mutations using their biophysical amino acid properties.
 
-# 🧬 (TP53) Clinical Variant Pathogenicity Tagger Pipeline Using Biophysical Properties 
+# 🧬 TP53 Clinical Variant Pathogenicity Tagger Pipeline Using Biophysical Properties 
 
 ## 📌 Summary 
 I built an RStudio pipeline to tag clinical data of patient missense mutations from the gene **TP53**. I wanted to improve my R skills over the holidays and fuel a deep interest in bioinformatics.
