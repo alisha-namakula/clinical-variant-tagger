@@ -7,7 +7,7 @@ An R pipeline to tag pathogenic *TP53* missense mutations using their biophysica
 
 ## 📌 Summary
 
-I built an R pipeline (`dplyr`, `ggplot2`) to analyse and tag protein variants from clinical cohort data of human *TP53* missense mutations. I used this to suggest clinical conclusions for patients. I wanted to improve my R skills over the holidays and fuel a deep interest in bioinformatics.
+I built an R pipeline to analyse and tag protein variants from clinical data of patient missense mutations in the TP53 gene. I used this to suggest clinical conclusions for patients. I wanted to improve my R skills over the holidays and fuel a deep interest in bioinformatics.
 
 ---
 
